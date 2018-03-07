@@ -34,6 +34,7 @@ body, html {
 .col{
     display:flex;
     flex-direction:column;
+    cursor: pointer;
 }
 
 .col:hover{
@@ -84,4 +85,15 @@ div.col {
 div.row {
     margin-right: -25px;
     margin-left: -25px;
+}
+
+.img-detail {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height:360px;
+}
+div.modal-lg {
+    max-width: 80%;
 }

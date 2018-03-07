@@ -16,8 +16,20 @@ $(document).ready(function(){
         window.location = "http://localhost/test/index.php?q=" + encodeURIComponent(par);
     });
 
-    $('.col').click(function(){
-        $('#myModal').modal('show');
+    $('.col').on('click',function(){
+        var id = $(this).attr('id');
+        var url = new URL(window.location.href);
+        var par =  parseInt(url.searchParams.get("q"));
+        var content = 'index.php';
+        if (!isNaN(par)) {
+            content += '?q=' + encodeURIComponent(par);
+            content += '&id=' + encodeURIComponent(id);
+        } else
+            content += '?id=' + encodeURIComponent(id);
+
+        $('.modal-content').load(content, function(){
+            $('#myModal').modal();
+        });
     });
 
 });
