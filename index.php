@@ -22,6 +22,7 @@ else {
 if (isset($_GET['id'])) :
 
     $all = $_SESSION['all'];
+    $icon_class = json_decode($all[$_GET['id']]['tags'],TRUE);
     ?>
     <div class="modal-content">
         <div class="modal-header">
@@ -30,11 +31,19 @@ if (isset($_GET['id'])) :
                 <span aria-hidden="true">&times;</span>
             </button>
         </div>
-        <div class="modal-body img-detail"  style=" background-image:url('https://creati.cdn.platon.sk/zlavadna.sk/<?php echo$all[$_GET['id']]['image_hd'] ?>');">
+        <div class="img-detail"  style=" background-image:url('https://creati.cdn.platon.sk/zlavadna.sk/<?php echo $all[$_GET['id']]['image_hd'] ?>');">
+        </div>
+        <div class="modal-body">
+            <p><?php echo $all[$_GET['id']]['title_desc'] ?></p>
+            <ul>
+                <?php
+                foreach ($icon_class as $key => $icon) {
+                    echo "<li><span class='" . $icon['class'] . "'></span>" . $icon['text'] ."</li>\n";
+                }
+                ?>
+            </ul>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
     </div>
 <?php else :
@@ -91,8 +100,6 @@ while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
 }
 $_SESSION['all'] = $all;
 //echo "</table>\n";
-
-
 // Free resultset
 //pg_free_result($result);
 
@@ -109,6 +116,7 @@ $_SESSION['all'] = $all;
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="ikony.css">
     <title>Hello, world!</title>
 </head>
 <body style="height:100%">

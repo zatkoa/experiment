@@ -1,0 +1,2747 @@
+@font-face {
+    font-family: 'font-zd';
+    src: url('https://www.zlavadna.sk/static/bootstrap/fonts/FontZd/fonts/font-zd.eot?v=1519229373') format('eot'), url('https://www.zlavadna.sk/static/bootstrap/fonts/FontZd/fonts/font-zd.eot?v=1519229373') format('embedded-opentype'), url('https://www.zlavadna.sk/static/bootstrap/fonts/FontZd/fonts/font-zd.woff?v=1519229373') format('woff'), url('https://www.zlavadna.sk/static/bootstrap/fonts/FontZd/fonts/font-zd.ttf?v=1519229373') format('truetype'), url('https://www.zlavadna.sk/static/bootstrap/fonts/FontZd/fonts/font-zd.svg?v=1519229373') format('svg')
+}
+
+
+[class^="zdf-"], [class*=" zdf-"] {
+    font-size: 37px;
+    font-family: 'font-zd' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zdf-alert-danger:before {
+    content: "\eb88"
+}
+
+.zdf-alert-success2:before {
+    content: "\eb89"
+}
+
+.zdf-alert-information:before {
+    content: "\eb8a"
+}
+
+.zdf-alert-question:before {
+    content: "\eb8b"
+}
+
+.zdf-alert-canceled:before {
+    content: "\eb8c"
+}
+
+.zdf-alert-success:before {
+    content: "\eb8d"
+}
+
+.zdf-alert-warning:before {
+    content: "\eb8e"
+}
+
+.zdf-logo-sd-mini .path1:before {
+    content: "\eb80";
+    color: #000
+}
+
+.zdf-logo-sd-mini .path2:before {
+    content: "\eb81";
+    margin-left: -1em;
+    color: #e7254e
+}
+
+.zdf-logo-bm-mini .path1:before {
+    content: "\eb82";
+    color: #010101
+}
+
+.zdf-logo-bm-mini .path2:before {
+    content: "\eb83";
+    margin-left: -1em;
+    color: #085189
+}
+
+.zdf-loading4:before {
+    content: "\eb84"
+}
+
+.zdf-loading3:before {
+    content: "\eb85"
+}
+
+.zdf-loading2:before {
+    content: "\eb86"
+}
+
+.zdf-kc-coin:before {
+    content: "\eb87"
+}
+
+.zdf-loading:before {
+    content: "\eb7d"
+}
+
+.zdf-arrow-turn-right:before {
+    content: "\eb7e"
+}
+
+.zdf-arrow-turn-left:before {
+    content: "\eb7f"
+}
+
+.zdf-no-rating-smile:before {
+    content: "\eb7c"
+}
+
+.zdf-euro-coin:before {
+    content: "\eb7b"
+}
+
+.zdf-horse:before {
+    content: "\eb74"
+}
+
+.zdf-rating-age21:before {
+    content: "\eb75"
+}
+
+.zdf-rating-age22:before {
+    content: "\eb76"
+}
+
+.zdf-rating-age23:before {
+    content: "\eb77"
+}
+
+.zdf-rating-age1:before {
+    content: "\eb78"
+}
+
+.zdf-rating-age2:before {
+    content: "\eb79"
+}
+
+.zdf-rating-age3:before {
+    content: "\eb7a"
+}
+
+.zdf-rating-smile5:before {
+    content: "\e900"
+}
+
+.zdf-rating-smile4:before {
+    content: "\e901"
+}
+
+.zdf-rating-smile3:before {
+    content: "\e902"
+}
+
+.zdf-rating-smile2:before {
+    content: "\e903"
+}
+
+.zdf-rating-smile1:before {
+    content: "\e904"
+}
+
+.zdf-rating-badge:before {
+    content: "\e905"
+}
+
+.zdf-motorboat:before {
+    content: "\e906"
+}
+
+.zdf-top-partner:before {
+    content: "\e907";
+    color: #ffbd0a
+}
+
+.zdf-menu-no-rating:before {
+    content: "\eb46"
+}
+
+.zdf-menu-photogallery:before {
+    content: "\eb47"
+}
+
+.zdf-menu-blog:before {
+    content: "\eb48"
+}
+
+.zdf-menu-contact:before {
+    content: "\eb49"
+}
+
+.zdf-menu-cart:before {
+    content: "\eb4a"
+}
+
+.zdf-menu-search:before {
+    content: "\eb4b"
+}
+
+.zdf-menu-info:before {
+    content: "\eb4c"
+}
+
+.zdf-menu-pin:before {
+    content: "\eb4d"
+}
+
+.zdf-navbar-cart:before {
+    content: "\eb4e"
+}
+
+.zdf-navbar-search:before {
+    content: "\eb4f"
+}
+
+.zdf-navbar-pin:before {
+    content: "\eb50"
+}
+
+.zdf-accommodation2:before {
+    content: "\eb51"
+}
+
+.zdf-accommodation1:before {
+    content: "\eb52"
+}
+
+.zdf-balcony:before {
+    content: "\eb53"
+}
+
+.zdf-personal-delivery:before {
+    content: "\eb54"
+}
+
+.zdf-public-transport:before {
+    content: "\eb55"
+}
+
+.zdf-reception-24:before {
+    content: "\eb56"
+}
+
+.zdf-czech-rep:before {
+    content: "\eb57"
+}
+
+.zdf-shipping-box:before {
+    content: "\eb58"
+}
+
+.zdf-easter-2:before {
+    content: "\eb59"
+}
+
+.zdf-easter-1:before {
+    content: "\eb5a"
+}
+
+.zdf-android_ios:before {
+    content: "\eb5b"
+}
+
+.zdf-antioxidants:before {
+    content: "\eb5c"
+}
+
+.zdf-bag:before {
+    content: "\eb5d"
+}
+
+.zdf-book:before {
+    content: "\eb5e"
+}
+
+.zdf-brush:before {
+    content: "\eb5f"
+}
+
+.zdf-cloud:before {
+    content: "\eb60"
+}
+
+.zdf-coffee-bean:before {
+    content: "\eb61"
+}
+
+.zdf-color-1:before {
+    content: "\eb62"
+}
+
+.zdf-color-2:before {
+    content: "\eb63"
+}
+
+.zdf-computer:before {
+    content: "\eb64"
+}
+
+.zdf-cube:before {
+    content: "\eb65"
+}
+
+.zdf-cup:before {
+    content: "\eb66"
+}
+
+.zdf-drops:before {
+    content: "\eb67"
+}
+
+.zdf-education:before {
+    content: "\eb68"
+}
+
+.zdf-fireplace:before {
+    content: "\eb69"
+}
+
+.zdf-foot-2:before {
+    content: "\eb6a"
+}
+
+.zdf-glasses:before {
+    content: "\eb6b"
+}
+
+.zdf-globe:before {
+    content: "\eb6c"
+}
+
+.zdf-gluten-intolerance:before {
+    content: "\eb6d"
+}
+
+.zdf-gold:before {
+    content: "\eb6e"
+}
+
+.zdf-handmade:before {
+    content: "\eb6f"
+}
+
+.zdf-chili:before {
+    content: "\eb70"
+}
+
+.zdf-nails:before {
+    content: "\eb71"
+}
+
+.zdf-filter1:before {
+    content: "\eb19"
+}
+
+.zdf-filter2:before {
+    content: "\eb1a"
+}
+
+.zdf-rank-down-up:before {
+    content: "\eb1b"
+}
+
+.zdf-rank-down:before {
+    content: "\eb1c"
+}
+
+.zdf-rank-up:before {
+    content: "\eb1d"
+}
+
+.zdf-manufacturer:before {
+    content: "\eb1e"
+}
+
+.zdf-pin-map:before {
+    content: "\eb1f"
+}
+
+.zdf-list:before {
+    content: "\eb20"
+}
+
+.zdf-calculator:before {
+    content: "\eb21"
+}
+
+.zdf-chart:before {
+    content: "\eb22"
+}
+
+.zdf-flipchart:before {
+    content: "\eb23"
+}
+
+.zdf-briefcase:before {
+    content: "\eb24"
+}
+
+.zdf-suitcase2:before {
+    content: "\eb25"
+}
+
+.zdf-search-place:before {
+    content: "\eb26"
+}
+
+.zdf-write:before {
+    content: "\eb27"
+}
+
+.zdf-code1:before {
+    content: "\eb28"
+}
+
+.zdf-code2:before {
+    content: "\eb29"
+}
+
+.zdf-research:before {
+    content: "\eb2a"
+}
+
+.zdf-target-people:before {
+    content: "\eb2b"
+}
+
+.zdf-binders:before {
+    content: "\eb2c"
+}
+
+.zdf-office:before {
+    content: "\eb2d"
+}
+
+.zdf-ca-parking:before {
+    content: "\eb2e"
+}
+
+.zdf-ca-bike:before {
+    content: "\eb2f"
+}
+
+.zdf-ca-computer:before {
+    content: "\eb30"
+}
+
+.zdf-ca-percent:before {
+    content: "\eb31"
+}
+
+.zdf-ca-shower:before {
+    content: "\eb32"
+}
+
+.zdf-ca-soccerball:before {
+    content: "\eb33"
+}
+
+.zdf-ca-wellness:before {
+    content: "\eb34"
+}
+
+.zdf-ca-balloon:before {
+    content: "\eb35"
+}
+
+.zdf-ca-cake:before {
+    content: "\eb36"
+}
+
+.zdf-ca-plant:before {
+    content: "\eb37"
+}
+
+.zdf-ca-dog:before {
+    content: "\eb38"
+}
+
+.zdf-ca-yoga:before {
+    content: "\eb39"
+}
+
+.zdf-ca-party:before {
+    content: "\eb3a"
+}
+
+.zdf-ca-seat:before {
+    content: "\eb3b"
+}
+
+.zdf-ca-molecule:before {
+    content: "\eb3c"
+}
+
+.zdf-ca-heart:before {
+    content: "\eb3d"
+}
+
+.zdf-ca-references:before {
+    content: "\eb3e"
+}
+
+.zdf-ca-teambuilding:before {
+    content: "\eb3f"
+}
+
+.zdf-coupon-text:before {
+    content: "\eaea"
+}
+
+.zdf-coupon-simple:before {
+    content: "\eaeb"
+}
+
+.zdf-coupon-own-theme:before {
+    content: "\eaf8"
+}
+
+.zdf-coupon-gift:before {
+    content: "\eaf9"
+}
+
+.zdf-coupon-fold:before {
+    content: "\eafa"
+}
+
+.zdf-coupon-draw:before {
+    content: "\eafb"
+}
+
+.zdf-download:before {
+    content: "\eafc"
+}
+
+.zdf-show-preview:before {
+    content: "\eafd"
+}
+
+.zdf-christmas-tree:before {
+    content: "\eafe"
+}
+
+.zdf-christmas-bell:before {
+    content: "\eaff"
+}
+
+.zdf-gingerbread-house:before {
+    content: "\eb00"
+}
+
+.zdf-christmas-stocking:before {
+    content: "\eb01"
+}
+
+.zdf-santa-claus:before {
+    content: "\eb02"
+}
+
+.zdf-festive-bow:before {
+    content: "\eb03"
+}
+
+.zdf-elk:before {
+    content: "\eb04"
+}
+
+.zdf-christmas-calendar:before {
+    content: "\eb05"
+}
+
+.zdf-gingerbread-man:before {
+    content: "\eb06"
+}
+
+.zdf-christmas-tree-ball:before {
+    content: "\eb07"
+}
+
+.zdf-candy-cane:before {
+    content: "\eb08"
+}
+
+.zdf-angel:before {
+    content: "\eb09"
+}
+
+.zdf-christmas-candles:before {
+    content: "\eb0a"
+}
+
+.zdf-santa-gloves:before {
+    content: "\eb0b"
+}
+
+.zdf-snowflake:before {
+    content: "\eb0c"
+}
+
+.zdf-reindeer:before {
+    content: "\eb0d"
+}
+
+.zdf-sleigh:before {
+    content: "\eb0e"
+}
+
+.zdf-gift-bag:before {
+    content: "\eb0f"
+}
+
+.zdf-santa-hat:before {
+    content: "\eb10"
+}
+
+.zdf-snowman:before {
+    content: "\eb11"
+}
+
+.zdf-good-wishes:before {
+    content: "\eb12"
+}
+
+.zdf-petard:before {
+    content: "\eb13"
+}
+
+.zdf-fireworks:before {
+    content: "\eb14"
+}
+
+.zdf-snow-globe:before {
+    content: "\eb15"
+}
+
+.zdf-gift-box:before {
+    content: "\eb16"
+}
+
+.zdf-career-inovacia:before {
+    content: "\eae7"
+}
+
+.zdf-career-transparentnost:before {
+    content: "\eae8"
+}
+
+.zdf-career-ustretovost:before {
+    content: "\eae9"
+}
+
+.zdf-career-priatelske-prostredie:before {
+    content: "\eb17"
+}
+
+.zdf-career-ludskost:before {
+    content: "\eb18"
+}
+
+.zdf-career-ferovost:before {
+    content: "\eaec"
+}
+
+.zdf-download-document:before {
+    content: "\eaed"
+}
+
+.zdf-email:before {
+    content: "\eaee"
+}
+
+.zdf-garancia-plus-orig:before {
+    content: "\eaef"
+}
+
+.zdf-garancia-plus-center:before {
+    content: "\eaf0"
+}
+
+.zdf-bell-1:before {
+    content: "\eaf1"
+}
+
+.zdf-bell-2:before {
+    content: "\eaf2"
+}
+
+.zdf-reserve:before {
+    content: "\eaf3"
+}
+
+.zdf-gallery-cube4:before {
+    content: "\eaf4"
+}
+
+.zdf-gallery-cube9:before {
+    content: "\eaf5"
+}
+
+.zdf-play:before {
+    content: "\eaf6"
+}
+
+.zdf-photogallery:before {
+    content: "\eaf7"
+}
+
+.zdf-water-waves:before {
+    content: "\ea4e"
+}
+
+.zdf-stethoscope:before {
+    content: "\ea60"
+}
+
+.zdf-doctor:before {
+    content: "\ea61"
+}
+
+.zdf-warm-wrap:before {
+    content: "\ea62"
+}
+
+.zdf-fun-park:before {
+    content: "\ea63"
+}
+
+.zdf-carousel:before {
+    content: "\ea64"
+}
+
+.zdf-flying-balloon:before {
+    content: "\ea65"
+}
+
+.zdf-terrace1:before {
+    content: "\ea66"
+}
+
+.zdf-terrace2:before {
+    content: "\eaa0"
+}
+
+.zdf-dance:before {
+    content: "\eaa1"
+}
+
+.zdf-arrow-down-fill-mini:before {
+    content: "\eaa2"
+}
+
+.zdf-arrow-down-fill-maxi:before {
+    content: "\eaa3"
+}
+
+.zdf-skiing:before {
+    content: "\eaa4"
+}
+
+.zdf-cycling:before {
+    content: "\eaa5"
+}
+
+.zdf-tennis22:before {
+    content: "\eaa6"
+}
+
+.zdf-shooting2:before {
+    content: "\eaa7"
+}
+
+.zdf-golf5:before {
+    content: "\eaa8"
+}
+
+.zdf-running:before {
+    content: "\eaa9"
+}
+
+.zdf-football:before {
+    content: "\eaaa"
+}
+
+.zdf-aerobic:before {
+    content: "\eaab"
+}
+
+.zdf-roller-skating:before {
+    content: "\eaac"
+}
+
+.zdf-surfing2:before {
+    content: "\eaad"
+}
+
+.zdf-boating:before {
+    content: "\eaae"
+}
+
+.zdf-nordic-walking:before {
+    content: "\eaaf"
+}
+
+.zdf-kick-box:before {
+    content: "\eab0"
+}
+
+.zdf-diving:before {
+    content: "\eab1"
+}
+
+.zdf-hockey:before {
+    content: "\eab2"
+}
+
+.zdf-golf4:before {
+    content: "\eab3"
+}
+
+.zdf-body-building:before {
+    content: "\eab4"
+}
+
+.zdf-strengthening1:before {
+    content: "\eab5"
+}
+
+.zdf-parachutist:before {
+    content: "\eab6"
+}
+
+.zdf-swim2:before {
+    content: "\eab7"
+}
+
+.zdf-soccer-ball:before {
+    content: "\eab8"
+}
+
+.zdf-basketball:before {
+    content: "\eab9"
+}
+
+.zdf-tennis-ball2:before {
+    content: "\eaba"
+}
+
+.zdf-ping-pong:before {
+    content: "\eabb"
+}
+
+.zdf-billiards:before {
+    content: "\eabc"
+}
+
+.zdf-bowling2:before {
+    content: "\eabd"
+}
+
+.zdf-bowling1:before {
+    content: "\eabe"
+}
+
+.zdf-golf3:before {
+    content: "\eabf"
+}
+
+.zdf-tennis-ball:before {
+    content: "\eac0"
+}
+
+.zdf-tennis2:before {
+    content: "\eac1"
+}
+
+.zdf-badminton2:before {
+    content: "\eac2"
+}
+
+.zdf-box2:before {
+    content: "\eac3"
+}
+
+.zdf-badminton1:before {
+    content: "\eac4"
+}
+
+.zdf-golf2:before {
+    content: "\eac5"
+}
+
+.zdf-target2:before {
+    content: "\eac6"
+}
+
+.zdf-swim1:before {
+    content: "\eac7"
+}
+
+.zdf-yoga:before {
+    content: "\eac8"
+}
+
+.zdf-tennis1:before {
+    content: "\eac9"
+}
+
+.zdf-golf1:before {
+    content: "\eaca"
+}
+
+.zdf-shooting:before {
+    content: "\eacb"
+}
+
+.zdf-boxer:before {
+    content: "\eacc"
+}
+
+.zdf-mountaineer:before {
+    content: "\eacd"
+}
+
+.zdf-slovak:before {
+    content: "\eace"
+}
+
+.zdf-foot:before {
+    content: "\eacf"
+}
+
+.zdf-ear:before {
+    content: "\ead0"
+}
+
+.zdf-nose:before {
+    content: "\ead1"
+}
+
+.zdf-hand:before {
+    content: "\ead2"
+}
+
+.zdf-face:before {
+    content: "\ead3"
+}
+
+.zdf-face-eye:before {
+    content: "\ead4"
+}
+
+.zdf-face-lips:before {
+    content: "\ead5"
+}
+
+.zdf-color-palette:before {
+    content: "\ead6"
+}
+
+.zdf-envelope:before {
+    content: "\ead7"
+}
+
+.zdf-surfing:before {
+    content: "\ead8"
+}
+
+.zdf-checkbox-fill-think:before {
+    content: "\ead9"
+}
+
+.zdf-checkbox-fill-bold:before {
+    content: "\eada"
+}
+
+.zdf-radio-uncheck:before {
+    content: "\eadb"
+}
+
+.zdf-radio-check:before {
+    content: "\eadc"
+}
+
+.zdf-radio-inverse:before {
+    content: "\eadd"
+}
+
+.zdf-muscles:before {
+    content: "\eade"
+}
+
+.zdf-mech-weight:before {
+    content: "\eadf"
+}
+
+.zdf-kg:before {
+    content: "\eae0"
+}
+
+.zdf-lips:before {
+    content: "\eae1"
+}
+
+.zdf-eye:before {
+    content: "\eae2"
+}
+
+.zdf-eye-spiral:before {
+    content: "\eae3"
+}
+
+.zdf-perfume:before {
+    content: "\eae4"
+}
+
+.zdf-cream-tube:before {
+    content: "\eae5"
+}
+
+.zdf-sunbathing:before {
+    content: "\ea29"
+}
+
+.zdf-diving-goggles:before {
+    content: "\ea2a"
+}
+
+.zdf-fins:before {
+    content: "\ea2b"
+}
+
+.zdf-suitcase:before {
+    content: "\ea2c"
+}
+
+.zdf-starfish:before {
+    content: "\ea2d"
+}
+
+.zdf-sailing-boat:before {
+    content: "\ea2e"
+}
+
+.zdf-ship:before {
+    content: "\ea2f"
+}
+
+.zdf-palm:before {
+    content: "\ea30"
+}
+
+.zdf-water-drops:before {
+    content: "\ea31"
+}
+
+.zdf-cream:before {
+    content: "\ea32"
+}
+
+.zdf-candle:before {
+    content: "\ea33"
+}
+
+.zdf-oil:before {
+    content: "\ea34"
+}
+
+.zdf-vitamin-pills:before {
+    content: "\ea35"
+}
+
+.zdf-feet:before {
+    content: "\ea36"
+}
+
+.zdf-liquid-soap:before {
+    content: "\ea37"
+}
+
+.zdf-hairdryer:before {
+    content: "\ea38"
+}
+
+.zdf-stopwatch:before {
+    content: "\ea39"
+}
+
+.zdf-wellness-stones:before {
+    content: "\ea3a"
+}
+
+.zdf-bamboo:before {
+    content: "\ea3b"
+}
+
+.zdf-facial-mask:before {
+    content: "\ea3c"
+}
+
+.zdf-favorite-fill:before {
+    content: "\ea3d"
+}
+
+.zdf-aircraft2:before {
+    content: "\ea3e"
+}
+
+.zdf-aircraft1:before {
+    content: "\ea3f"
+}
+
+.zdf-bus:before {
+    content: "\ea40"
+}
+
+.zdf-cash-machine:before {
+    content: "\ea41"
+}
+
+.zdf-target:before {
+    content: "\ea42"
+}
+
+.zdf-cappuccino:before {
+    content: "\ea43"
+}
+
+.zdf-water-drink:before {
+    content: "\ea44"
+}
+
+.zdf-cola:before {
+    content: "\ea45"
+}
+
+.zdf-coffee2:before {
+    content: "\ea46"
+}
+
+.zdf-cognac:before {
+    content: "\ea47"
+}
+
+.zdf-gift2:before {
+    content: "\ea48"
+}
+
+.zdf-flower:before {
+    content: "\ea49"
+}
+
+.zdf-sunlight:before {
+    content: "\ea4a"
+}
+
+.zdf-eye-examination:before {
+    content: "\ea4b"
+}
+
+.zdf-no-barriers:before {
+    content: "\ea4c"
+}
+
+.zdf-drugs:before {
+    content: "\ea4d"
+}
+
+.zdf-laboratory:before {
+    content: "\eae6"
+}
+
+.zdf-tooth2:before {
+    content: "\ea4f"
+}
+
+.zdf-tooth-ok:before {
+    content: "\ea50"
+}
+
+.zdf-tooth-protection:before {
+    content: "\ea51"
+}
+
+.zdf-tooth1:before {
+    content: "\ea52"
+}
+
+.zdf-examination-dentist:before {
+    content: "\ea53"
+}
+
+.zdf-dental-hygiene:before {
+    content: "\ea54"
+}
+
+.zdf-teeth-braces:before {
+    content: "\ea55"
+}
+
+.zdf-protection-teeth:before {
+    content: "\ea56"
+}
+
+.zdf-toothpaste:before {
+    content: "\ea57"
+}
+
+.zdf-dentist-examination:before {
+    content: "\ea58"
+}
+
+.zdf-dentist-order:before {
+    content: "\ea59"
+}
+
+.zdf-dentist:before {
+    content: "\ea5a"
+}
+
+.zdf-mouth:before {
+    content: "\ea5b"
+}
+
+.zdf-playground2:before {
+    content: "\ea5c"
+}
+
+.zdf-zoo1:before {
+    content: "\ea5d"
+}
+
+.zdf-zoo3:before {
+    content: "\ea5e"
+}
+
+.zdf-zoo2:before {
+    content: "\ea5f"
+}
+
+.zdf-chicken:before {
+    content: "\ea67"
+}
+
+.zdf-goose:before {
+    content: "\ea68"
+}
+
+.zdf-pig:before {
+    content: "\ea69"
+}
+
+.zdf-cow:before {
+    content: "\ea6a"
+}
+
+.zdf-sheep:before {
+    content: "\ea6b"
+}
+
+.zdf-rabbit:before {
+    content: "\ea6c"
+}
+
+.zdf-goat:before {
+    content: "\ea6d"
+}
+
+.zdf-non-invasive:before {
+    content: "\ea6e"
+}
+
+.zdf-sheet-music2:before {
+    content: "\ea6f"
+}
+
+.zdf-sheet-music1:before {
+    content: "\ea70"
+}
+
+.zdf-smile:before {
+    content: "\ea71"
+}
+
+.zdf-cake:before {
+    content: "\ea72"
+}
+
+.zdf-violin:before {
+    content: "\ea73"
+}
+
+.zdf-fish:before {
+    content: "\ea74"
+}
+
+.zdf-beef-food:before {
+    content: "\ea75";
+}
+
+.zdf-vegetarian-food:before {
+    content: "\ea76"
+}
+
+.zdf-fish-food:before {
+    content: "\ea77"
+}
+
+.zdf-chicken-food:before {
+    content: "\ea78"
+}
+
+.zdf-pizza-food:before {
+    content: "\ea79"
+}
+
+.zdf-valuation:before {
+    content: "\ea7a"
+}
+
+.zdf-fast-delivery2:before {
+    content: "\ea7b"
+}
+
+.zdf-soft-drink:before {
+    content: "\ea7c"
+}
+
+.zdf-japan-food:before {
+    content: "\ea7d"
+}
+
+.zdf-ice-cream:before {
+    content: "\ea7e"
+}
+
+.zdf-drink:before {
+    content: "\ea7f"
+}
+
+.zdf-beer:before {
+    content: "\ea80"
+}
+
+.zdf-wine2:before {
+    content: "\ea81"
+}
+
+.zdf-wifi-coffee:before {
+    content: "\ea82"
+}
+
+.zdf-fast-food:before {
+    content: "\ea83"
+}
+
+.zdf-hamburger:before {
+    content: "\ea84"
+}
+
+.zdf-food-menu:before {
+    content: "\ea85"
+}
+
+.zdf-man-woman2:before {
+    content: "\ea86"
+}
+
+.zdf-man-woman1:before {
+    content: "\ea87"
+}
+
+.zdf-tart:before {
+    content: "\ea88"
+}
+
+.zdf-map-search:before {
+    content: "\ea89"
+}
+
+.zdf-raft:before {
+    content: "\ea8a"
+}
+
+.zdf-grill:before {
+    content: "\ea8b"
+}
+
+.zdf-mountains:before {
+    content: "\ea8c"
+}
+
+.zdf-champagne:before {
+    content: "\ea8d"
+}
+
+.zdf-pin-map22:before {
+    content: "\ea8e"
+}
+
+.zdf-pin-map12:before {
+    content: "\ea8f"
+}
+
+.zdf-binoculars2:before {
+    content: "\ea90"
+}
+
+.zdf-caravan:before {
+    content: "\ea91"
+}
+
+.zdf-healthydoc:before {
+    content: "\ea92"
+}
+
+.zdf-healthy-apple:before {
+    content: "\ea93"
+}
+
+.zdf-heartbeat:before {
+    content: "\ea94"
+}
+
+.zdf-weight:before {
+    content: "\ea95"
+}
+
+.zdf-dumbbells:before {
+    content: "\ea96"
+}
+
+.zdf-flipflops:before {
+    content: "\ea97"
+}
+
+.zdf-parasol:before {
+    content: "\ea98"
+}
+
+.zdf-fb-like:before {
+    content: "\ea99"
+}
+
+.zdf-fb-dislike:before {
+    content: "\ea9a"
+}
+
+.zdf-gift:before {
+    content: "\ea9b"
+}
+
+.zdf-minus-mt:before {
+    content: "\ea9c"
+}
+
+.zdf-minus-mb:before {
+    content: "\ea9d"
+}
+
+.zdf-minus-bt:before {
+    content: "\ea9e"
+}
+
+.zdf-minus-bb:before {
+    content: "\ea9f"
+}
+
+.zdf-binoculars:before {
+    content: "\e957"
+}
+
+.zdf-height:before {
+    content: "\e9f3"
+}
+
+.zdf-speed:before {
+    content: "\e9f4"
+}
+
+.zdf-gearbox:before {
+    content: "\e9f5"
+}
+
+.zdf-car1:before {
+    content: "\e9f6"
+}
+
+.zdf-car2:before {
+    content: "\e9f7"
+}
+
+.zdf-car3:before {
+    content: "\e9f8"
+}
+
+.zdf-car4:before {
+    content: "\e9f9"
+}
+
+.zdf-car5:before {
+    content: "\e9fa"
+}
+
+.zdf-motorbike:before {
+    content: "\e9fb"
+}
+
+.zdf-race:before {
+    content: "\e9fc"
+}
+
+.zdf-variants:before {
+    content: "\e9fd"
+}
+
+.zdf-surgery-body1:before {
+    content: "\e9fe"
+}
+
+.zdf-surgery-body2:before {
+    content: "\e9ff"
+}
+
+.zdf-surgery-breast1:before {
+    content: "\ea00"
+}
+
+.zdf-surgery-breast2:before {
+    content: "\ea01"
+}
+
+.zdf-surgery-body3:before {
+    content: "\ea02"
+}
+
+.zdf-surgery-body4:before {
+    content: "\ea03"
+}
+
+.zdf-surgery-body5:before {
+    content: "\ea04"
+}
+
+.zdf-surgery-buttocks1:before {
+    content: "\ea05"
+}
+
+.zdf-surgery-buttocks2:before {
+    content: "\ea06"
+}
+
+.zdf-surgery-buttocks3:before {
+    content: "\ea07"
+}
+
+.zdf-surgery-hand:before {
+    content: "\ea08"
+}
+
+.zdf-surgery-leg1:before {
+    content: "\ea09"
+}
+
+.zdf-surgery-leg2:before {
+    content: "\ea0a"
+}
+
+.zdf-surgery-breast3:before {
+    content: "\ea0b"
+}
+
+.zdf-surgery-belly:before {
+    content: "\ea0c"
+}
+
+.zdf-surgery-penis1:before {
+    content: "\ea0d"
+}
+
+.zdf-surgery-penis2:before {
+    content: "\ea0e"
+}
+
+.zdf-surgery-breast4:before {
+    content: "\ea0f"
+}
+
+.zdf-surgery-body6:before {
+    content: "\ea10"
+}
+
+.zdf-surgery-body7:before {
+    content: "\ea11"
+}
+
+.zdf-surgery-eye1:before {
+    content: "\ea12"
+}
+
+.zdf-surgery-eye2:before {
+    content: "\ea13"
+}
+
+.zdf-surgery-ear1:before {
+    content: "\ea14"
+}
+
+.zdf-surgery-ear2:before {
+    content: "\ea15"
+}
+
+.zdf-surgery-nose1:before {
+    content: "\ea16"
+}
+
+.zdf-surgery-nose2:before {
+    content: "\ea17"
+}
+
+.zdf-surgery-beard1:before {
+    content: "\ea18"
+}
+
+.zdf-surgery-beard2:before {
+    content: "\ea19"
+}
+
+.zdf-surgery-body8:before {
+    content: "\ea1a"
+}
+
+.zdf-help:before {
+    content: "\e908"
+}
+
+.zdf-magnifier1:before {
+    content: "\e928"
+}
+
+.zdf-magnifier2:before {
+    content: "\e927"
+}
+
+.zdf-favorite:before {
+    content: "\e909"
+}
+
+.zdf-cart:before {
+    content: "\e926"
+}
+
+.zdf-basket:before {
+    content: "\e90a"
+}
+
+.zdf-arrowl-bt:before {
+    content: "\e90b"
+}
+
+.zdf-arrowr-bt:before {
+    content: "\e90c"
+}
+
+.zdf-arrowd-bt:before {
+    content: "\e90d"
+}
+
+.zdf-arrowu-bt:before {
+    content: "\e90e"
+}
+
+.zdf-arrowl-mt:before {
+    content: "\e90f"
+}
+
+.zdf-arrowr-mt:before {
+    content: "\e910"
+}
+
+.zdf-arrowd-mt:before {
+    content: "\e911"
+}
+
+.zdf-arrowu-mt:before {
+    content: "\e912"
+}
+
+.zdf-arrowl-bb:before {
+    content: "\e913"
+}
+
+.zdf-arrowr-bb:before {
+    content: "\e914"
+}
+
+.zdf-arrowd-bb:before {
+    content: "\e915"
+}
+
+.zdf-arrowu-bb:before {
+    content: "\e916"
+}
+
+.zdf-arrowl-mb:before {
+    content: "\e917"
+}
+
+.zdf-arrowr-mb:before {
+    content: "\e918"
+}
+
+.zdf-arrowd-mb:before {
+    content: "\e919"
+}
+
+.zdf-arrowu-mb:before {
+    content: "\e91a"
+}
+
+.zdf-menuham-bt:before {
+    content: "\e91b"
+}
+
+.zdf-menuham-bt2:before {
+    content: "\e91c"
+}
+
+.zdf-menuham-bb:before {
+    content: "\e91d"
+}
+
+.zdf-menuham-sb:before {
+    content: "\e91e"
+}
+
+.zdf-plus-bt:before {
+    content: "\e91f"
+}
+
+.zdf-plus-bb:before {
+    content: "\e920"
+}
+
+.zdf-plus-mt:before {
+    content: "\e921"
+}
+
+.zdf-plus-mb:before {
+    content: "\e922"
+}
+
+.zdf-close-bt:before {
+    content: "\e923"
+}
+
+.zdf-close-bb:before {
+    content: "\e924"
+}
+
+.zdf-close-mt:before {
+    content: "\e925"
+}
+
+.zdf-close-mb:before {
+    content: "\e929"
+}
+
+.zdf-instagram:before {
+    content: "\e92a"
+}
+
+.zdf-linkedin:before {
+    content: "\e92b"
+}
+
+.zdf-facebook:before {
+    content: "\e92c"
+}
+
+.zdf-twitter:before {
+    content: "\e92d"
+}
+
+.zdf-googleplus:before {
+    content: "\e92e"
+}
+
+.zdf-youtube:before {
+    content: "\e92f"
+}
+
+.zdf-youtube-old:before {
+    content: "\e930"
+}
+
+.zdf-letter-bg:before {
+    content: "\e931"
+}
+
+.zdf-user:before {
+    content: "\e932"
+}
+
+.zdf-menu-hamburger:before {
+    content: "\e933"
+}
+
+.zdf-menu-ham-text:before {
+    content: "\e934"
+}
+
+.zdf-menu-ham-text2:before {
+    content: "\e935"
+}
+
+.zdf-logo-zd-mini .path1:before {
+    content: "\e936";
+    color: #1a1a1a
+}
+
+.zdf-logo-zd-mini .path2:before {
+    content: "\e937";
+    margin-left: -1em;
+    color: #e7214d
+}
+
+.zdf-administration:before {
+    content: "\e938"
+}
+
+.zdf-premium-klub:before {
+    content: "\e939"
+}
+
+.zdf-coupon:before {
+    content: "\e93a"
+}
+
+.zdf-credit:before {
+    content: "\e93b"
+}
+
+.zdf-setup:before {
+    content: "\e93c"
+}
+
+.zdf-log-off:before {
+    content: "\e93d"
+}
+
+.zdf-log-off2:before {
+    content: "\e93e"
+}
+
+.zdf-checkbox-unchecked:before {
+    content: "\e93f"
+}
+
+.zdf-checkbox-checked:before {
+    content: "\e940"
+}
+
+.zdf-cooperation:before {
+    content: "\e941"
+}
+
+.zdf-star:before {
+    content: "\e942"
+}
+
+.zdf-support:before {
+    content: "\e943"
+}
+
+.zdf-app .path1:before {
+    content: "\e944";
+    color: #231f20
+}
+
+.zdf-app .path2:before {
+    content: "\e945";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-app .path3:before {
+    content: "\e946";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-app .path4:before {
+    content: "\e947";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-app .path5:before {
+    content: "\e948";
+    margin-left: -1em;
+    color: #231f20
+}
+
+.zdf-app .path6:before {
+    content: "\e949";
+    margin-left: -1em;
+    color: #231f20
+}
+
+.zdf-app .path7:before {
+    content: "\e94a";
+    margin-left: -1em;
+    color: #231f20
+}
+
+.zdf-app .path8:before {
+    content: "\e94b";
+    margin-left: -1em;
+    color: #231f20
+}
+
+.zdf-app .path9:before {
+    content: "\e94c";
+    margin-left: -1em;
+    color: #231f20
+}
+
+.zdf-app .path10:before {
+    content: "\e94d";
+    margin-left: -1em;
+    color: #302b2d
+}
+
+.zdf-app .path11:before {
+    content: "\e94e";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-app .path12:before {
+    content: "\e94f";
+    margin-left: -1em;
+    color: #202020
+}
+
+.zdf-app .path13:before {
+    content: "\e950";
+    margin-left: -1em;
+    color: #e7214d
+}
+
+.zdf-facebook2:before {
+    content: "\e951"
+}
+
+.zdf-instagram2:before {
+    content: "\e952"
+}
+
+.zdf-googleplus2:before {
+    content: "\e953"
+}
+
+.zdf-twitter2:before {
+    content: "\e954"
+}
+
+.zdf-youtube2:before {
+    content: "\e955"
+}
+
+.zdf-linkedin2:before {
+    content: "\e956"
+}
+
+.zdf-facebook3:before {
+    content: "\e958"
+}
+
+.zdf-googleplus3:before {
+    content: "\e959"
+}
+
+.zdf-linkedin3:before {
+    content: "\e95a"
+}
+
+.zdf-how-shop:before {
+    content: "\e95b"
+}
+
+.zdf-blog:before {
+    content: "\e95c"
+}
+
+.zdf-how-shop2:before {
+    content: "\e95d"
+}
+
+.zdf-blog2:before {
+    content: "\e95e"
+}
+
+.zdf-contact:before {
+    content: "\e95f"
+}
+
+.zdf-search-people:before {
+    content: "\ea1b"
+}
+
+.zdf-baby-friendly:before {
+    content: "\e960"
+}
+
+.zdf-children-program:before {
+    content: "\e961"
+}
+
+.zdf-playground:before {
+    content: "\e962"
+}
+
+.zdf-children-playground:before {
+    content: "\e963"
+}
+
+.zdf-free-children:before {
+    content: "\e964"
+}
+
+.zdf-for-family:before {
+    content: "\e965"
+}
+
+.zdf-pet-friendly:before {
+    content: "\e966"
+}
+
+.zdf-hiking-trail:before {
+    content: "\e967"
+}
+
+.zdf-fitness:before {
+    content: "\e968"
+}
+
+.zdf-gym:before {
+    content: "\e969"
+}
+
+.zdf-bowling:before {
+    content: "\e96a"
+}
+
+.zdf-roller:before {
+    content: "\e96b"
+}
+
+.zdf-hiking:before {
+    content: "\e96c"
+}
+
+.zdf-garden:before {
+    content: "\e96d"
+}
+
+.zdf-beer-pub:before {
+    content: "\e96e"
+}
+
+.zdf-aircondition:before {
+    content: "\e96f"
+}
+
+.zdf-accommodation5:before {
+    content: "\e970"
+}
+
+.zdf-accommodation4:before {
+    content: "\e971"
+}
+
+.zdf-accommodation3:before {
+    content: "\e972"
+}
+
+.zdf-fast-delivery:before {
+    content: "\e973"
+}
+
+.zdf-photo-attraction:before {
+    content: "\e974"
+}
+
+.zdf-safe:before {
+    content: "\e975"
+}
+
+.zdf-hair-salon:before {
+    content: "\e976"
+}
+
+.zdf-beauty-salon:before {
+    content: "\e977"
+}
+
+.zdf-for-slim:before {
+    content: "\e978"
+}
+
+.zdf-ski-rental:before {
+    content: "\e979"
+}
+
+.zdf-bike-rental:before {
+    content: "\e97a"
+}
+
+.zdf-parking-free1:before {
+    content: "\e97b"
+}
+
+.zdf-parking-pay1:before {
+    content: "\e97c"
+}
+
+.zdf-parking-free2:before {
+    content: "\e97d"
+}
+
+.zdf-parking-pay2:before {
+    content: "\e97e"
+}
+
+.zdf-wifi-reception:before {
+    content: "\e97f"
+}
+
+.zdf-wifi-room:before {
+    content: "\e980"
+}
+
+.zdf-wifi1:before {
+    content: "\e981"
+}
+
+.zdf-wifi2:before {
+    content: "\e982"
+}
+
+.zdf-card-payment:before {
+    content: "\e983"
+}
+
+.zdf-cash-payment:before {
+    content: "\e984"
+}
+
+.zdf-payment-euro:before {
+    content: "\e985"
+}
+
+.zdf-masseur:before {
+    content: "\e986"
+}
+
+.zdf-type-accommodation:before {
+    content: "\e987"
+}
+
+.zdf-large-bed:before {
+    content: "\e988"
+}
+
+.zdf-reservation:before {
+    content: "\e989"
+}
+
+.zdf-without-reservation:before {
+    content: "\e98a"
+}
+
+.zdf-number-night1:before {
+    content: "\e98b"
+}
+
+.zdf-number-night2:before {
+    content: "\e98c"
+}
+
+.zdf-outsize1:before {
+    content: "\e98d"
+}
+
+.zdf-outsize2:before {
+    content: "\e98e"
+}
+
+.zdf-long-life1:before {
+    content: "\e98f"
+}
+
+.zdf-long-life2:before {
+    content: "\e990"
+}
+
+.zdf-high-performance:before {
+    content: "\e991"
+}
+
+.zdf-health-center:before {
+    content: "\e992"
+}
+
+.zdf-free-shipping:before {
+    content: "\e993"
+}
+
+.zdf-bio:before {
+    content: "\e994"
+}
+
+.zdf-cotton1:before {
+    content: "\e995"
+}
+
+.zdf-cotton2:before {
+    content: "\e996"
+}
+
+.zdf-hotel:before {
+    content: "\e997"
+}
+
+.zdf-castle:before {
+    content: "\e998"
+}
+
+.zdf-pension:before {
+    content: "\e999"
+}
+
+.zdf-fairy:before {
+    content: "\e99a"
+}
+
+.zdf-cottage:before {
+    content: "\e99b"
+}
+
+.zdf-studio:before {
+    content: "\e99c"
+}
+
+.zdf-apartment:before {
+    content: "\e99d"
+}
+
+.zdf-guest:before {
+    content: "\e99e"
+}
+
+.zdf-guest5:before {
+    content: "\e99f"
+}
+
+.zdf-guest4:before {
+    content: "\e9a0"
+}
+
+.zdf-guest3:before {
+    content: "\e9a1"
+}
+
+.zdf-guest2:before {
+    content: "\e9a2"
+}
+
+.zdf-guest1:before {
+    content: "\e9a3"
+}
+
+.zdf-tearoom:before {
+    content: "\e9a4"
+}
+
+.zdf-coffe:before {
+    content: "\e9a5"
+}
+
+.zdf-drinks:before {
+    content: "\e9a6"
+}
+
+.zdf-wine:before {
+    content: "\e9a7"
+}
+
+.zdf-champagne-room:before {
+    content: "\e9a8"
+}
+
+.zdf-welcome-drink:before {
+    content: "\e9a9"
+}
+
+.zdf-food:before { /* content:"\e9aa" */
+}
+
+.zdf-restaurant:before {
+    content: "\e9ab"
+}
+
+.zdf-bar:before {
+    content: "\e9ac"
+}
+
+.zdf-whirpool:before {
+    content: "\e9ad"
+}
+
+.zdf-outdoor-pool:before {
+    content: "\e9ae"
+}
+
+.zdf-indoor-pool:before {
+    content: "\e9af"
+}
+
+.zdf-sauna1:before {
+    content: "\e9b0"
+}
+
+.zdf-sauna2:before {
+    content: "\e9b1"
+}
+
+.zdf-bath:before {
+    content: "\e9b2"
+}
+
+.zdf-beach:before {
+    content: "\e9b3"
+}
+
+.zdf-pool:before {
+    content: "\e9b4"
+}
+
+.zdf-massage:before {
+    content: "\e9b5"
+}
+
+.zdf-spec-kitchen:before {
+    content: "\e9b6"
+}
+
+.zdf-curiosity:before {
+    content: "\e9b7"
+}
+
+.zdf-food-all-inclusive:before {
+    content: "\e9b8"
+}
+
+.zdf-drink-all-inclusive1:before {
+    content: "\e9b9"
+}
+
+.zdf-drink-all-inclusive2:before {
+    content: "\e9ba"
+}
+
+.zdf-good-rating:before {
+    content: "\e9bb"
+}
+
+.zdf-awards:before {
+    content: "\e9bc"
+}
+
+.zdf-food-raw:before {
+    content: "\e9bd"
+}
+
+.zdf-food-vegan:before {
+    content: "\e9be"
+}
+
+.zdf-food-vegetarian:before {
+    content: "\e9bf"
+}
+
+.zdf-food-no-wheat:before {
+    content: "\e9c0"
+}
+
+.zdf-duration:before {
+    content: "\e9c1"
+}
+
+.zdf-use-today:before {
+    content: "\e9c2"
+}
+
+.zdf-food2:before {
+    content: "\e9c3"
+}
+
+.zdf-food:before {
+    content: "\e9aa";
+}
+
+.zdf-breakfast:before {
+    content: "\e9c4"
+}
+
+.zdf-wellness:before {
+    content: "\e9c5"
+}
+
+.zdf-wellness-unlimited:before {
+    content: "\e9c6"
+}
+
+.zdf-wellness-luxury:before {
+    content: "\e9c7"
+}
+
+.zdf-duration-10:before {
+    content: "\e9c8"
+}
+
+.zdf-duration-20:before {
+    content: "\e9c9"
+}
+
+.zdf-duration-30:before {
+    content: "\e9ca"
+}
+
+.zdf-duration-40:before {
+    content: "\e9cb"
+}
+
+.zdf-duration-50:before {
+    content: "\e9cc"
+}
+
+.zdf-duration-60:before {
+    content: "\e9cd"
+}
+
+.zdf-duration-70:before {
+    content: "\e9ce"
+}
+
+.zdf-duration-80:before {
+    content: "\e9cf"
+}
+
+.zdf-duration-90:before {
+    content: "\e9d0"
+}
+
+.zdf-duration-100:before {
+    content: "\e9d1"
+}
+
+.zdf-duration-110:before {
+    content: "\e9d2"
+}
+
+.zdf-duration-120:before {
+    content: "\e9d3"
+}
+
+.zdf-duration-130:before {
+    content: "\e9d4"
+}
+
+.zdf-duration-140:before {
+    content: "\e9d5"
+}
+
+.zdf-duration-150:before {
+    content: "\e9d6"
+}
+
+.zdf-duration-160:before {
+    content: "\e9d7"
+}
+
+.zdf-duration-170:before {
+    content: "\e9d8"
+}
+
+.zdf-duration-180:before {
+    content: "\e9d9"
+}
+
+.zdf-hotel-center .path1:before {
+    content: "\e9da";
+    color: #000
+}
+
+.zdf-hotel-center .path2:before {
+    content: "\e9db";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path3:before {
+    content: "\e9dc";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path4:before {
+    content: "\e9dd";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path5:before {
+    content: "\e9de";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path6:before {
+    content: "\e9df";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path7:before {
+    content: "\e9e0";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path8:before {
+    content: "\e9e1";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path9:before {
+    content: "\e9e2";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path10:before {
+    content: "\e9e3";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-hotel-center .path11:before {
+    content: "\e9e4";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-hotel-center .path12:before {
+    content: "\e9e5";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path1:before {
+    content: "\e9e6";
+    color: #000
+}
+
+.zdf-extra-validity .path2:before {
+    content: "\e9e7";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path3:before {
+    content: "\e9e8";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path4:before {
+    content: "\e9e9";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path5:before {
+    content: "\e9ea";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path6:before {
+    content: "\e9eb";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path7:before {
+    content: "\e9ec";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path8:before {
+    content: "\e9ed";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-extra-validity .path9:before {
+    content: "\e9ee";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path10:before {
+    content: "\e9ef";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path11:before {
+    content: "\e9f0";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path12:before {
+    content: "\e9f1";
+    margin-left: -1em;
+    color: #fff
+}
+
+.zdf-extra-validity .path13:before {
+    content: "\e9f2";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path14:before {
+    content: "\ea1c";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-extra-validity .path15:before {
+    content: "\ea1d";
+    margin-left: -1em;
+    color: #000
+}
+
+.zdf-waterslide:before {
+    content: "\ea1e"
+}
+
+.zdf-practice:before {
+    content: "\ea1f"
+}
+
+.zdf-remodeling:before {
+    content: "\ea20"
+}
+
+.zdf-spa:before {
+    content: "\ea21"
+}
+
+.zdf-history:before {
+    content: "\ea22"
+}
+
+.zdf-contact2:before {
+    content: "\ea23"
+}
+
+.zdf-pin-map1:before {
+    content: "\ea24"
+}
+
+.zdf-pin-map2:before {
+    content: "\ea25"
+}
+
+.zdf-pin-map3:before {
+    content: "\ea26"
+}
+
+.zdf-pin-map4:before {
+    content: "\ea27"
+}
+
+.zdf-star-fill:before {
+    content: "\ea28"
+}
+
+.zdf-connection:before {
+    content: "\eb40"
+}
+
+.zdf-paperclip:before {
+    content: "\eb41"
+}
+
+.zdf-print:before {
+    content: "\eb42"
+}
+
+.zdf-idea:before {
+    content: "\eb43"
+}
+
+.zdf-tea:before {
+    content: "\eb44"
+}
+
+.zdf-unisex:before {
+    content: "\eb45"
+}
+
+.zdf-pin-fill:before {
+    content: "\eb72"
+}
+
+.zdf-pin-star:before {
+    content: "\eb73"
+}
+
+.zbi-coupons-yellow {
+    color: #262626;
+    background: #ffd40a none
+}
+
+.zbi-coupons-pink {
+    color: #fff;
+    background: #eb1a47 none
+}
+
+.zbi-coupons-gray {
+    color: #262626;
+    background: #f2f2f2 none
+}
+
+.zbi-coupons-green {
+    background: #88ba10 none
+}

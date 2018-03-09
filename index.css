@@ -97,3 +97,26 @@ div.row {
 div.modal-lg {
     max-width: 80%;
 }
+
+div.modal-body p {
+    padding: 5px 18px;
+    font-size: 17px;
+}
+
+li{
+    float:left;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 25px 25px 10px 25px
+}
+ul{
+    list-style-type: none;
+    padding: 0 20px 0 0;
+}
+
+li span {
+    margin-bottom:15px;
+    display:block;
+}
