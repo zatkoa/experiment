@@ -6,6 +6,31 @@ body {
     color: #3f4040;
 }
 
+.container {
+    display:none;
+}
+
+.dalej{
+    width: 120px;
+    height: 42px;
+    position:absolute;
+    right:0;
+    bottom: 0;
+    display: none;
+    /*background-color: #D9D8D8;*/
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+.dalej:hover {
+    opacity: 0.9;
+}
+
+.dalej span{
+    font-size: 25px;
+}
+
 div.col {
     padding-right: 0px;
     padding-left: 0px;
@@ -16,16 +41,15 @@ div.col {
     background-color: white;
 }
 .img {
-     height:60%;
     vertical-align: middle;
     text-align: center;
 }
 .cena {
-    height:20%;
     padding-top: 15px;
 }
 .nazov{
-    height:20%;
+    display: flex;
+    height: 20%;
 }
 body, html {
   height: 100%;
@@ -35,6 +59,7 @@ body, html {
     display:flex;
     flex-direction:column;
     cursor: pointer;
+    justify-content: center;
 }
 
 .col:hover{
@@ -61,11 +86,13 @@ div.col {
     border-style: solid;
     background-color: white;
     box-shadow: 1px 4px 9px 0px rgba(0,0,0,0.75);
-    margin: 3px 11px 3px 12px;
+    margin: 11px 11px 12px 12px;
 }
 .nazov-produktu {
-    align-content:center;
-    padding: 16px 6px 4px 7px;
+    align-self:center;
+    padding-left: 7px;
+    padding-right: 7px;
+    /*padding: 11px 6px 4px 7px;*/
 }
 .cena-produktu{
     padding-left:7px;
@@ -74,11 +101,21 @@ div.col {
     visibility: hidden;
 }
 .popis{
-    height:20%;
+    display: flex;
+    height: 20%;
+}
+
+.popis p {
+    align-self: center;
+    margin-bottom:0;
+}
+p {
+    margin-bottom: 0;
 }
 .popis-produktu {
-    padding-left: 9px;
-    padding-top: 7px;
+    font-weight: normal;
+    padding-left: 7px;
+    padding-right: 7px;
     line-height: 1.1;
     font-size: 11px;
 }
@@ -119,4 +156,42 @@ ul{
 li span {
     margin-bottom:15px;
     display:block;
+}
+.cena-kupit {
+    margin-top: -50px;
+    height: 50px;
+    padding: 0px 0px 12px 10px;
+}
+
+
+.cena-modal{
+    width: 200px;
+    height: 50px;
+    background: rgba(0,0,0,0.85);
+    float: left;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+    color:white;
+    border-radius: 4px
+}
+.kupit:hover, a:hover{
+    opacity: 1;
+    text-decoration:none;
+    color: white;
+}
+
+.kupit {
+    background: #7bbc00;
+    width: 200px;
+    height:50px;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+    display: inline-block;
+    color:white;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0.9;
+
 }
